@@ -6,7 +6,7 @@ Write an AVR C program to send hex values for ASCII characters of 0, 1, 2, 3, 4,
 
 int main(void)
 {
-	DDRC = 0xff;
+	DDRC = 0xFF;
 	unsigned char i;
 	for (i = 0; i <= 170; i++)
 		PORTC = i;
