@@ -8,6 +8,14 @@
 
 1.  [Study of Basic I/O operations in AVR C](./practical-3/)
 
+<br/>
+
+---
+
+## Extra programs
+
+-   [Print 0 to 9 with delay infinity times](./extra/ZeroToNine.c)
+
 
 ---
 
