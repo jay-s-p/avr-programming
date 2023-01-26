@@ -2,13 +2,13 @@
 # Study of Basic I/O operations in AVR C
 
 
-1. [Write an AVR C program to get a byte of data from Port A and send it to Port B.](./p1.c)
+1. [&nbsp;&nbsp;&nbsp;Data from PORT A send it to PORT B.](./p1.c)
 
-1. [Write an AVR C Program to get 10 different values from Port B and send it to Port D (Note: Only show output of two values)](./p2.c)
+1. [&nbsp;&nbsp;&nbsp;Get 10 different values from PORT B and send it to PORT D.](./p2.c)
 
-1. [Write an AVR C Program to take the value from Port B if the value is less than 100 give it to Port C otherwise to port D.](./p3.c)
+1. [&nbsp;&nbsp;&nbsp;Get value from PORT B if value < 100 than send to PORT C otherwise PORT D.](./p3.c)
 
-1. [Write an AVR C Program to get a value from Port A. If the value is positive send it to Port B otherwise send it to Port D.](./p4.c)
+1. [&nbsp;&nbsp;&nbsp;Get value from PORT A If value is positive send it to PORT B otherwise PORT D.](./p4.c)
 
-1. [Write an AVR C Program to send the ASCII value of your name on Port B.](./p5.c)
+1. [&nbsp;&nbsp;&nbsp;send the ASCII value of your name on PORT B](./p5.c)
 
