@@ -8,6 +8,8 @@
 
 1.  [Study of Basic I/O operations in AVR C](./practical-3/)
 
+1.  [Study of Arithmetic and Logical operations in AVR C](./practical-4/)
+
 <br/>
 
 ---
