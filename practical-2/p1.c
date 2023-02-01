@@ -7,8 +7,8 @@ Write an AVR C Program to give the value from 0 to 9 on PORTB.
 int main(void)
 {
 	DDRB = 0xFF;
-	unsigned char i, arr[] = "012345ABCD";
-	for (i = 0; i < 10; i++)
-		PORTB = arr[i];
+	unsigned char i;
+	for (i = 0; i <= 9; i++)
+		PORTB = i;
 	return 0;
 }
