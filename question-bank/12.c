@@ -13,7 +13,7 @@ int main(void)
     DDRB = 0xFF;
     while(1)
     {
-        if (data < 128)
+        if (PINA < 128)
             PORTB = 0xFF;
         else
             PORTB = 0x00;

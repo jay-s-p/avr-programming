@@ -8,7 +8,7 @@ int main(void)
 {
 	DDRB = 0xFF;
 	unsigned char i, arr[] = "ATMIYA";
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 6; i++)
 		PORTB = arr[i];
 	return 0;
 }

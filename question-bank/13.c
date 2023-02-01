@@ -4,13 +4,6 @@ write program to display 9 on the seven segment display.
 */
 
 #include <avr/io.h>
-#include <util/delay.h>
-
-void print(int data)
-{
-    _delay_ms(500);
-	PORTC = data;
-}
 
 int main(void)
 {
