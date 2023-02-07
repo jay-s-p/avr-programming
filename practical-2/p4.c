@@ -4,11 +4,11 @@ Write an AVR C Program to compliment Port C 200 times. (Note: Only show output o
 
 #include <avr/io.h>
 
-void main(void)
+int main(void)
 {
-    DDRB = 0xFF;
+    DDRC = 0xFF;
     unsigned char i;
     for (i = 0; i < 200; i++)
-        PORTB = ~PORTB;
+        PORTC = ~PORTC;
     return 0;
 }

@@ -10,8 +10,7 @@ int main(void)
 {
 	DDRA = 0x00;
 	DDRD = 0xFF;
-    while(1)
-    {
- 		PORTD = PINA | 0xAA;
-	}
+	while (1)
+		PORTD = PINA | 0xAA;
+	return 0;
 }

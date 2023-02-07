@@ -9,7 +9,7 @@ int main(void)
     DDRB = 0xFF;
     unsigned char i;
     unsigned char arr[] = "jayparmar";
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < sizeof(arr)/sizeof(arr[0]); i++)
         PORTB = arr[i];
     return 0;
 }

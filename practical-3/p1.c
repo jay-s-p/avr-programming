@@ -8,9 +8,9 @@ int main(void)
 {
 
 	DDRA = 0x00;
-	DDRC = 0xFF;
+	DDRB = 0xFF;
 	PORTA = 0xFF;
 	while (1)
-		PORTC = ~PINA;
+		PORTB = PINA;
 	return 0;
 }

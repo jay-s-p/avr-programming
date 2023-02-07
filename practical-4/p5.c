@@ -20,4 +20,5 @@ int main(void)
         PORTC = 0x00;
         _delay_ms(1000);
     }
+    return 0;
 }

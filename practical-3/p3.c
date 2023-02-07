@@ -9,15 +9,13 @@ int main(void)
 	DDRB = 0x00;
 	DDRC = 0xFF;
 	DDRD = 0xFF;
-	unsigned char temp;
 
 	while (1)
 	{
-		temp = PINB;
-		if (temp < 100)
-			PORTC = temp;
+		if (PINB < 100)
+			PORTC = PINB;
 		else
-			PORTD = temp;
+			PORTD = PINB;
 	}
 
 	return 0;

@@ -8,13 +8,13 @@ There should be delay of 100ms between each value.
 
 int main(void)
 {
-	DDRC = 0xFF;
-    while(1)
+    DDRC = 0xFF;
+    while (1)
     {
         PORTC = 0x55;
         _delay_ms(100);
         PORTC = 0xAA;
         _delay_ms(100);
-	}
+    }
     return 0;
 }

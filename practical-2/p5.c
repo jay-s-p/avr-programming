@@ -4,11 +4,11 @@ Write an AVR C Program to compliment Port C 10000 times. (Note: Only show output
 
 #include <avr/io.h>
 
-void main(void)
+int main(void)
 {
-    DDRD = 0xFF;
+    DDRC = 0xFF;
     unsigned int i;
     for (i = 0; i < 10000; i++)
-        PORTD = ~PORTD;
+        PORTC = ~PORTC;
     return 0;
 }

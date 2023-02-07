@@ -6,9 +6,9 @@ Write an AVR C Program to send the ASCII value of word “ATMIYA” on Port C.
 
 int main(void)
 {
-	DDRB = 0xFF;
+	DDRC = 0xFF;
 	unsigned char i, arr[] = "ATMIYA";
 	for (i = 0; i < 6; i++)
-		PORTB = arr[i];
+		PORTC = arr[i];
 	return 0;
 }

@@ -9,14 +9,12 @@ int main(void)
     DDRA = 0x00;
     DDRB = 0xFF;
     DDRD = 0xFF;
-    unsigned char data;
     while (1)
     {
-        data = PINA;
-        if (data < 128)
-            PORTB = data;
+        if (PINA < 128)
+            PORTB = PINA;
         else
-            PORTD = data;
+            PORTD = PINA;
     }
     return 0;
 }
