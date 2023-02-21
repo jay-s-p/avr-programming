@@ -1,11 +1,5 @@
 # AVR Programming in C...
 <table>
-    <thead>
-        <tr>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td>1.</td>
