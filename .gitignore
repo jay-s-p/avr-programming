@@ -1,3 +1,10 @@
 .vscode
 practicals
 temp
+main
+*.workspace
+*.pdsbak
+Debug
+*.atsln
+*.atsuo
+*.cproj
