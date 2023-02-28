@@ -15,6 +15,6 @@ int main(void)
 	return 0;
 }
 ```
-<img src="./p1.png" style="max-width:345px;width:100%" title="output-1" alt="output-1" >
+<img src="./p1.png" style="width:30em" title="output-1" alt="output-1" >
 
 <img src="./p1.jpg" style="max-width:800px;width:100%" title="output-1" alt="output-1" >
