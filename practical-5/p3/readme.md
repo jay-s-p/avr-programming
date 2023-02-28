@@ -1,11 +1,11 @@
 
 #### *3. Write an AVR C program to read the content of Pin 0 and 1 of PORTB. Send the ASCII value to PORTD  according to the following table :-*
 ```
-  Pin 1       Pin 0     ASCII
-	0           0        ‘0’
-	0           1        ‘1’
-	1           0        ‘2’
-	1           1        ‘3’
+Pin 1       Pin 0     ASCII
+  0           0        ‘0’
+  0           1        ‘1’
+  1           0        ‘2’
+  1           1        ‘3’
 ```
 
 ```c
