@@ -57,8 +57,22 @@
                 &nbsp;<a href="./practical-5/p1/readme.md">P1</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="./practical-5/p2/readme.md">P2</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="./practical-5/p3/readme.md">P3</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-                <!-- <a href="./practical-5/p4/readme.md">P4</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="./practical-5/p5/readme.md">P5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                <a href="./practical-5/p4/readme.md">P4</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./practical-5/p5/readme.md">P5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Bit wise shift operations in AVR C.</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                &nbsp;
+                &nbsp;<a href="./practical-6/p1/readme.md">P1</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <a href="./practical-6/p2/readme.md">P2</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./practical-6/p3/readme.md">P3</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./practical-6/p4/readme.md">P4</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./practical-6/p5/readme.md">P5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
             </td>
         </tr>
     </tbody>
